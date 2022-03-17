@@ -6,6 +6,19 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.site {
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
 a {
   color: inherit;
   text-decoration: none;

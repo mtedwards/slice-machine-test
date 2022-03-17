@@ -25,7 +25,7 @@ const TextImageRight = ({ slice }) => {
 
     <style jsx>{`
         section {
-          max-width: 600px;
+          max-width: 1000px;
           margin: 4em auto;
           text-align: center;
           display: flex;
