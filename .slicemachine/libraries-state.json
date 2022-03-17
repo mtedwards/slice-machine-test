@@ -1,0 +1,175 @@
+{
+  "slices": {
+    "components": {
+      "text_image_right": {
+        "library": "slices",
+        "id": "text_image_right",
+        "name": "TextImageRight",
+        "description": "TextImageRight",
+        "model": {
+          "id": "text_image_right",
+          "type": "SharedSlice",
+          "name": "TextImageRight",
+          "description": "TextImageRight",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextImageRight",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "mainImage": {
+                  "config": {
+                    "label": "Main Image",
+                    "constraint": {
+                      "width": 600,
+                      "height": 600
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "imageLeft",
+              "name": "Image Left",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextImageRight",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                },
+                "mainImage": {
+                  "config": {
+                    "label": "Main Image",
+                    "constraint": {
+                      "width": 600,
+                      "height": 600
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "text_image_right",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Morph extensible channels",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Commodo mollit laboris pariatur ipsum.",
+                  "spans": []
+                }
+              ],
+              "mainImage": {
+                "dimensions": {
+                  "width": 600,
+                  "height": 600
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=600&h=600&fit=crop"
+              }
+            }
+          },
+          "imageLeft": {
+            "variation": "imageLeft",
+            "name": "Image Left",
+            "slice_type": "text_image_right",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Monetize customized experiences",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Laborum aliquip nostrud eiusmod magna consectetur ullamco occaecat Lorem reprehenderit. Eiusmod irure consectetur non eiusmod dolore labore ad aliquip cillum.",
+                  "spans": []
+                }
+              ],
+              "mainImage": {
+                "dimensions": {
+                  "width": 600,
+                  "height": 600
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=600&h=600&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/mattedwards/Websites/react/next-js/slice-machine-test/.slicemachine/assets/slices/TextImageRight/default/preview.png",
+            "width": 800,
+            "height": 304
+          },
+          "imageLeft": {
+            "path": "/Users/mattedwards/Websites/react/next-js/slice-machine-test/.slicemachine/assets/slices/TextImageRight/imageLeft/preview.png",
+            "width": 800,
+            "height": 304
+          }
+        }
+      }
+    }
+  }
+}
