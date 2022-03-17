@@ -1,5 +1,6 @@
 import React from 'react'
 import { PrismicRichText } from '@prismicio/react'
+import Image from "next/image";
 
 const TextImageRight = ({ slice }) => {
   console.log({slice})
@@ -20,7 +21,15 @@ const TextImageRight = ({ slice }) => {
       }
     </div>
     <div className="textImageImage">
-      <img src={slice.primary.mainImage.url} alt={slice.primary.mainImage.alt} />
+      <Image
+        src={slice.primary.mainImage.url}
+        alt={slice.primary.mainImage.alt}
+        layout="responsive"
+        width={slice.primary.mainImage.dimensions.width}
+        height={slice.primary.mainImage.dimensions.height}
+        objectfit="contain"
+        className="object-contain"
+      />
     </div>
 
     <style jsx>{`
@@ -52,7 +61,7 @@ const TextImageRight = ({ slice }) => {
         }
         
         .title {
-          color: cornFlowerBlue;
+          color: navy;
         }
     `}</style>
   </section>
