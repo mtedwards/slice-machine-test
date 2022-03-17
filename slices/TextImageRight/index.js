@@ -3,7 +3,6 @@ import { PrismicRichText } from '@prismicio/react'
 import Image from "next/image";
 
 const TextImageRight = ({ slice }) => {
-  console.log({slice})
   return (
   <section className={slice.variation}>
     <div className="textImageContent">

@@ -1,11 +1,15 @@
 import { createClient } from '../prismicio'
 import { SliceZone } from '@prismicio/react'
 import { components } from '../slices/index'
+import Head from 'next/head'
 
 export default function Homepage({ page }) {
-  console.log({page})
   return (
     <div className="site">
+      <Head>
+        <title>My SliceZon Text</title>
+        <meta name="description" content="Just experimenting to see how fast it is"></meta>
+      </Head>
       <header>
         <h1>{page.data.title}</h1>
       </header>
